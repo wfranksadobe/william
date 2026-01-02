@@ -1,12 +1,27 @@
 {
   "mappings": [
-    "/content/aem-boilerplate-commerce/:/",
-    "/content/aem-boilerplate-commerce/configuration:/.helix/config.json",
-    "/content/aem-boilerplate-commerce/headers:/.helix/headers.json",
-    "/content/aem-boilerplate-commerce/metadata:/metadata.json",
-    "/content/aem-boilerplate-commerce.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+    "/:/",
+    "/content/william/:/",
+    "/content/william/configuration:/.helix/config.json",
+    "/content/william/configs/headers:/.helix/headers.json",
+    "/content/william/configs/metadata:/metadata.json",
+    "/content/william/configs/redirects:/redirects.json",
+    "/content/william.resource/enrichment/enrichment.json:/enrichment/enrichment.json",
+    "/content/william/placeholders/global.json:/placeholders/global.json",
+    "/content/william/placeholders/auth.json:/placeholders/auth.json",
+    "/content/william/placeholders/account.json:/placeholders/account.json",
+    "/content/william/placeholders/checkout.json:/placeholders/checkout.json",
+    "/content/william/placeholders/order.json:/placeholders/order.json",
+    "/content/william/placeholders/product.json:/placeholders/product.json",
+    "/content/william/placeholders/search.json:/placeholders/search.json",
+    "/content/william/placeholders/cart.json:/placeholders/cart.json"
   ],
   "includes": [
-    "/content/aem-boilerplate-commerce/"
+    "/content/william/",
+    "/content/forms/af/",
+    "/content/forms/af/william/",
+    "/content/dam/",
+    "/adobe/forms/af/",
+    "/adobe/assets/"
   ]
 }
